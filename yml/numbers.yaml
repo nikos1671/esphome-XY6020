@@ -1,7 +1,7 @@
 number:
   - platform: modbus_controller
     #modbus_controller_id: mod_bus_controller
-    name: "Spannung Einstellen"
+    name: "Adjusting the voltage"
     mode: box
     address: 0x00
     unit_of_measurement: "Volt"
@@ -13,7 +13,7 @@ number:
       
   - platform: modbus_controller
     #modbus_controller_id: mod_bus_controller
-    name: "Strom Einstellen"
+    name: "Adjusting the power"
     mode: box
     address: 0x01
     unit_of_measurement: "Ampere"
