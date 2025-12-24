@@ -11,7 +11,7 @@ switch:
 
   - platform: modbus_controller
     #modbus_controller_id: mod_bus_controller
-    name: "EIN-AUS Schalter"
+    name: "ON-OFF Schalter"
     id: onoff
     register_type: holding
     address: 0x12
