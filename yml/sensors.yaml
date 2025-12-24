@@ -37,9 +37,9 @@ sensor:
     value_type: U_WORD
     device_class: CURRENT
     #unit_of_measurement: "Ampere"
-    accuracy_decimals: 2
+    accuracy_decimals: 3
     filters:
-     - multiply: 0.01
+     - multiply: 0.001
 
   - platform: modbus_controller
     name: "${POWER}"
